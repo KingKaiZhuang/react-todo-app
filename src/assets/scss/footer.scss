@@ -1,0 +1,21 @@
+.footer {
+  background-color: #f3f4f6; // 淺灰色背景
+  color: #333; // 深灰色字體
+  padding: 12px 20px; // 增加內邊距
+  text-align: center; // 文本居中對齊
+  font-size: 16px; // 設定字體大小
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); // 底部陰影效果，讓footer更有層次感
+  display: flex; // 使用彈性盒子佈局
+  justify-content: space-between; // 使項目在水平方向上均勻分佈
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.completed-todos,
+.total-todos {
+  margin: 0; // 移除段落的預設邊距
+  font-weight: bold; // 字體加粗
+  flex: 1; // 彈性盒子比例分配
+  padding: 5px; // 輕微的內邊距
+}
