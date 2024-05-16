@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+  border-bottom: 1px solid #ccc;
+  .item-delete {
+    background-color: #f00;
+    color: #fff;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+}

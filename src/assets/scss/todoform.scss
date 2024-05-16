@@ -1,0 +1,37 @@
+.todo-banner {
+  background-color: rgb(255, 246, 81);
+  width: 100%;
+  padding: 25px 16px;
+  text-align: center;
+  .title {
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+  }
+}
+.todo-form {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  box-shadow: 0 0 10px rgba(107, 107, 107, 0.1);
+  margin: 0 auto;
+  margin-block: 10px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  .todo-input {
+    outline: none;
+    border: 0px;
+  }
+  .todo-input:focus {
+    background-color: #eef;
+    border: 0px solid #aaa;
+  }
+  .todo-add {
+    padding: 5px 10px;
+    background-color: rgb(255, 246, 81);
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
