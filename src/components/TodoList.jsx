@@ -1,9 +1,10 @@
 import TodoItem from "./TodoItem";
 import "../assets/scss/todolist.scss";
 export default function TodoList({ todos, setTodos }) {
+  const sortedTodos = todos.slice().sort((a, b) => a.done - b.done);
   return (
     <div className="todo-list">
-      {todos.map((todo) => {
+      {sortedTodos.map((todo) => {
         return (
           <TodoItem
             todos={todos}
